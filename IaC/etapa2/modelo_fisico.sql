@@ -59,27 +59,27 @@ CREATE TABLE IF NOT EXISTS dsaschema.fato_vendas
 
 COPY dsaschema.dim_cliente
 FROM 's3://meu-bucket-rafa-so-27/dados/dim_cliente.csv'
-IAM_ROLE 'arn:aws:iam::867344455317:role/RedshiftS3AccessRole'
+IAM_ROLE 'arn:aws:iam::8xxxxx:role/RedshiftS3AccessRole'
 CSV;
 
 COPY dsaschema.dim_localidade
 FROM 's3://meu-bucket-rafa-so-27/dados/dim_localidade.csv'
-IAM_ROLE 'arn:aws:iam::867344455317:role/RedshiftS3AccessRole'
+IAM_ROLE 'arn:aws:iam::xxxxxxx:role/RedshiftS3AccessRole'
 CSV;
 
 COPY dsaschema.dim_produto
 FROM 's3://meu-bucket-rafa-so-27/dados/dim_produto.csv'
-IAM_ROLE 'arn:aws:iam::867344455317:role/RedshiftS3AccessRole'
+IAM_ROLE 'arn:aws:iam::xxxx:role/RedshiftS3AccessRole'
 CSV;
 
 COPY dsaschema.dim_tempo
 FROM 's3://meu-bucket-rafa-so-27/dados/dim_tempo.csv'
-IAM_ROLE 'arn:aws:iam::867344455317:role/RedshiftS3AccessRole'
+IAM_ROLE 'arn:aws:iam::xxxx:role/RedshiftS3AccessRole'
 CSV;
 
 COPY dsaschema.fato_vendas
 FROM 's3://meu-bucket-rafa-so-27/dados/fato_vendas.csv'
-IAM_ROLE 'arn:aws:iam::867344455317:role/RedshiftS3AccessRole'
+IAM_ROLE 'arn:aws:iam::xxxxxx:role/RedshiftS3AccessRole'
 CSV;
 
 

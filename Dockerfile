@@ -2,7 +2,7 @@
 FROM ubuntu:latest
 
 # Mantenedor da imagem (opcional)
-LABEL maintainer="DSA"
+LABEL maintainer="RAfa"
 
 # Atualizar os pacotes do sistema e instalar dependências necessárias
 RUN apt-get update && \
